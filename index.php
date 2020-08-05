@@ -1,3 +1,4 @@
+<?php include("path.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-  <?php include("app/includes/header.php"); ?>
+  <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
   <!-- Page wrapper -->
   <div class="page-wrapper">
     <!-- Posts Slider -->
@@ -171,7 +172,7 @@
     <!-- // content -->
   </div>
   <!-- // page wrapper -->
-  <?php include("app/includes/footer.php"); ?>
+  <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
 
   <!-- JQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
